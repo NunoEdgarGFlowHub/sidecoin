@@ -2,7 +2,7 @@ Sidecoin
 ========
 
 Copyright (c) 2009-2013 The Bitcoin developers
-Copyright (c) 2014 Dyffy, Inc.
+Copyright (c) 2014 Joey Krug and Jack Peterson
 
 Setup
 ---------------------
