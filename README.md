@@ -29,3 +29,6 @@ Make the sidecoin directory in /Users/username/Library/Application\ Support/Side
 
 Copy the sidecoin.conf file to that directory, also create a dir in that dir called balances and 
 place the balances.txt inside that folder.
+
+
+If you have any questions, please email joey@augur.net
