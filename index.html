@@ -29,14 +29,11 @@
     <div class="container">
       <section id="main_content">
         <h2>
-<a id="sidecoin" class="anchor" href="#sidecoin" aria-hidden="true"><span class="octicon octicon-link"></span></a>SideCoin</h2>
+<a id="sidecoin" class="anchor" href="#sidecoin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sidecoin</h2>
 
-<p><a href="https://travis-ci.org/tensorjack/sidecoin"><img src="https://travis-ci.org/tensorjack/sidecoin.svg?branch=master" alt="Build Status"></a></p>
+<p><a href="https://travis-ci.org/AugurProject/Sidecoin"><img src="https://travis-ci.org/AugurProject/Sidecoin.svg?branch=master" alt="Build Status"></a></p>
 
-<p>The sidecar to Bitcoin's motorcycle.  SideCoin is a fork of Bitcoin v. 0.9.1.</p>
-
-<p>Sidecoin allows you to take a snapshot of bitcoin's blockchain distribution and put it
-into a new blockchain</p>
+<p>The sidecar to Bitcoin's motorcycle.  Sidecoin is a fork of Bitcoin v. 0.9.1.  Sidecoin allows you to take a snapshot of Bitcoin's current distribution and load it into a new blockchain.</p>
 
 <pre><code>- P2P port: 6543 (16543 for testnet)
 - RPC port: 6544 (16544 for testnet)
@@ -45,28 +42,29 @@ into a new blockchain</p>
 <h3>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
 
-<h4>
-<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linux</h4>
-
 <p>If you're on a somewhat recent version of Ubuntu, you can install using:</p>
 
 <pre><code>$ ./install.sh
 </code></pre>
 
-<h4>
-<a id="osx" class="anchor" href="#osx" aria-hidden="true"><span class="octicon octicon-link"></span></a>OSX</h4>
+<h3>
+<a id="os-x-build-instructions" class="anchor" href="#os-x-build-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>OS X Build Instructions</h3>
 
-<p>Use brew to get boost.</p>
+<p>use brew to get boost</p>
 
-<p>Install using: 
-    ./autogen.sh
-    sudo ./configure --with-boost=/usr/local/Cellar/boost/1.55.0_2/ --with-incompatible-bdb --with-qt
-    make</p>
+<p>Install using:</p>
+
+<pre><code>./autogen.sh
+sudo ./configure --with-boost=/usr/local/Cellar/boost/1.55.0_2/ --with-incompatible-bdb --with-qt
+make
+</code></pre>
 
 <p>Make the sidecoin directory in /Users/username/Library/Application\ Support/Sidecoin</p>
 
 <p>Copy the sidecoin.conf file to that directory, also create a dir in that dir called balances and 
 place the balances.txt inside that folder.</p>
+
+<p>Questions?  Email Joey (<a href="mailto:joey@augur.net">joey@augur.net</a>) or Jack (<a href="mailto:jack@augur.net">jack@augur.net</a>).</p>
       </section>
     </div>
 
