@@ -2,12 +2,16 @@
 
 [![Build Status](https://travis-ci.org/AugurProject/Sidecoin.svg?branch=master)](https://travis-ci.org/AugurProject/Sidecoin)
 
-The sidecar to Bitcoin's motorcycle.  Sidecoin is a fork of Bitcoin v. 0.9.1.  Sidecoin allows you to take a snapshot of Bitcoin's current distribution and load it into a new blockchain.
+The sidecar to Bitcoin's motorcycle.
+
+Sidecoin is a fork of Bitcoin v. 0.9.1 that allows you to take a snapshot of Bitcoin's current distribution and load it into a new blockchain.  Want to know more?  Check out our [whitepaper](http://augur.link/sidecoin.pdf)!
+
+Our Bitcoin [snapshot](http://augur.link/snapshotToImport.txt.gz).
+
+Ports:
 
     - P2P port: 6543 (16543 for testnet)
     - RPC port: 6544 (16544 for testnet)
-
-Our Bitcoin [snapshot](http://augur.link/snapshotToImport.txt.gz).
 
 ### Installation
 
