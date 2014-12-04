@@ -30,9 +30,6 @@ public:
                            const char* btcBalance);
 };
 
-CTransaction ClaimTx(const char* btcSig,
-                     const char* btcHash160);
-
 CBlock blockOneTx();
 
 #endif // SIDECOIN_SNAPSHOT_H
