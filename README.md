@@ -29,7 +29,7 @@ Install using:
 	sudo ./configure --with-boost=/usr/local/Cellar/boost/1.55.0_2/ --with-incompatible-bdb --with-qt
 	make
 
-Make the sidecoin directory in /Users/username/Library/Application\ Support/Sidecoin
+Make the `sidecoin` directory in `/Users/username/Library/Application\ Support/Sidecoin`
 
 Copy the `sidecoin.conf` file to that directory.  Then create a directory in that directory called `balances` and place the `balances.txt` file inside.
 
