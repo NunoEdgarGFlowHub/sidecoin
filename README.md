@@ -1,6 +1,6 @@
 ## Sidecoin
 
-[![Build Status](https://travis-ci.org/AugurProject/Sidecoin.svg?branch=master)](https://travis-ci.org/AugurProject/Sidecoin)
+[![Build Status](https://travis-ci.org/tinybike/sidecoin.svg?branch=master)](https://travis-ci.org/tinybike/sidecoin)
 
 The sidecar to Bitcoin's motorcycle.
 
@@ -31,7 +31,6 @@ Install using:
 
 Make the sidecoin directory in /Users/username/Library/Application\ Support/Sidecoin
 
-Copy the sidecoin.conf file to that directory, also create a dir in that dir called balances and 
-place the balances.txt inside that folder.
+Copy the `sidecoin.conf` file to that directory.  Then create a directory in that directory called `balances` and place the `balances.txt` file inside.
 
 Questions?  Email Joey (joey@augur.net) or Jack (jack@augur.net).
