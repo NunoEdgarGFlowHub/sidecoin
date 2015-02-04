@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/tinybike/sidecoin.svg?branch=master)](https://travis-ci.org/tinybike/sidecoin)
 
+![Bitcoin sidecar](https://github.com/tinybike/sidecoin/blob/master/src/qt/res/images/splash.png)
+
 The sidecar to Bitcoin's motorcycle.
 
 Sidecoin is a fork of Bitcoin v. 0.9.1 that allows you to take a snapshot of Bitcoin's current distribution and load it into a new blockchain.  Want to know more?  Check out our [whitepaper](http://augur.link/sidecoin.pdf)!
